@@ -1,4 +1,4 @@
-package HNG12.com.example.PublicAPI;
+package HNG12.com.example.publicapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

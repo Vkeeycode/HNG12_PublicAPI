@@ -1,4 +1,5 @@
-package HNG12.com.example.PublicAPI.controller;
+package HNG12.com.example.publicapi.controller;
+
 
 import org.springframework.web.bind.annotation.*;
 
@@ -6,10 +7,11 @@ import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 @RestController
 @RequestMapping("/api")
-public class infoController {
-
+public class InfoController {
     @CrossOrigin(origins = "*") // Allow requests from any origin
     @GetMapping("/info")
     public Map<String, String> getInfo() {
@@ -19,3 +21,5 @@ public class infoController {
         return response;
     }
 }
+
+

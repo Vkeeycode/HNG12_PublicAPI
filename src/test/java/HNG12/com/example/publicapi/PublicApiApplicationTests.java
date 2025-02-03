@@ -1,4 +1,4 @@
-package HNG12.com.example.PublicAPI;
+package HNG12.com.example.publicapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
