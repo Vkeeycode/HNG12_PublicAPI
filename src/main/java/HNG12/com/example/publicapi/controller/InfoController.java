@@ -16,8 +16,11 @@ public class InfoController {
     @GetMapping("/info")
     public Map<String, String> getInfo() {
         Map<String, String> response = new HashMap<>();
+
         response.put("email", "chinomsovinfaith@gmail.com");
         response.put("timestamp", Instant.now().toString()); // ISO 8601 format
+        response.put("repository", "https://github.com/Vkeeycode/HNG12_PublicAPI.git");
+
         return response;
     }
 }
